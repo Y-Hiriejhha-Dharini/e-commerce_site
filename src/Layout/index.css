@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Quicksand&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css");
+
+*{
+  margin: 0;
+  font-family: "Instrument Serif";
+  color: #464545;
+}
+
+.navbar{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  background-color: #2c2434;
+  font-weight:bolder;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #f6f7f8;
+  font-weight: 100px;
+}
+
+.navbar a:hover{
+  color:#69c3ff;
+}
+
+.links{
+  width: 1200px;
+}
+
+.logo{
+  width: 120px;
+  height: 50px;
+}
+
+.content{
+  max-width: 1000px;
+  margin: 20px auto;
+  /* padding: 20px; */
+}
+
+.search_input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 300px;
+}
+
+.img{
+  height: 80vh;
+}
+
+.card-group{
+  position: relative;
+  top: -150px;
+  width: 70%;
+}
+
+.card{
+  width: 18rem;
+}
+
+.card-img-top{
+  height: 300px;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  font-size:larger;
+}
+
+.card_anchor{
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
